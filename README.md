@@ -1,22 +1,14 @@
 # DHBW-Mannheim-WI2023SEB-MVC
 
-Diese Anwendung demonstriert das MVC-Muster mit einer To-Do-Liste in JavaScript.
+**Model**:
+- Daten und Geschäftslogik
 
-## ▶️ Starten
+**View**:
+- Darstellung der Daten (z.B. HTML-Seiten)
 
-```bash
-npm install
-npm run start
-```
+**Controller**:
+- Vermittelt zwischen Model und View
 
-## 📦 Struktur
-
-- `Model.js`: Speichert Aufgaben
-- `View.js`: UI-Logik & Eventregistrierung
-- `Controller.js`: Vermittelt zwischen View und Model
-
-## 💡 Features
-
-- Aufgaben hinzufügen
-- Aufgaben durch Klicken als erledigt markieren
-- Aufgaben löschen
+**Architektur-Erklärung:**
+- Klare Trennung von Daten, Darstellung und Steuerung.
+- Vorteil: Bessere Wartbarkeit und Testbarkeit.
